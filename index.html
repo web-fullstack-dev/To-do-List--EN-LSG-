@@ -8,9 +8,42 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/container.css">
+  <link rel="stylesheet" href="css/section.css">
+  <link rel="stylesheet" href="css/form.css">
+  <link rel="stylesheet" href="css/tasks.css">
 </head>
-<body>
-  <p>Simple to do list application with JS code</p>
+<body class="body">
+  <main class="container">
+    <header>
+      <h1>To do list</h1>
+    </header>
+    <section class="section">
+      <h2 class="section__header">Add new task</h2>
+      <div class="section__body">
+        <form class="form form-js">
+          <input class="form__input js-newTask" type="text" placeholder="What is there to do?" required>
+          <button class="form__button"> Add new task</button>
+        </form>
+      </div>
+    </section>
+    <section class="section">
+      <h2 class="section__header">To do list</h2>
+      <div class="section__body">
+        <ul class="tasks js-tasks">
+          <li class="tasks__item js-tasks">
+            <button class="tasks__button tasks__button--done js-ToggleDone">✔</button>
+            <span class="tasks__content tasks__content--done">Do something</span>
+          </li>
+          <li class="tasks__item js-tasks">
+            <button class="tasks__button tasks__button-done js-toggleDone">─</button>
+            <span class="tasks__content tasks__content--done">Do something else</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
   <script defer src="js/script.js"></script>
 </body>
 </html>
