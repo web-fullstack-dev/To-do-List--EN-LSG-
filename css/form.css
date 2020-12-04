@@ -1,0 +1,31 @@
+.form {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-gap: 20px;
+}
+
+@media (max-width: 767px) {
+  .form {
+    grid-template-columns: 1fr;
+  }
+}
+
+.form__input {
+  padding: 20px; /*padding*/
+  border: 1px solid hsl(0, 0%, 93%); /*border*/
+}
+
+.form__button {
+  padding: 0; /*padding*/
+  color: hsl(0, 0%, 100%); /*color*/
+  background-color: hsl(0, 0%, 50%); /*background-color*/
+  border: 1px solid hsl(0, 0%, 93%);
+}
+
+ .form__button:hover {
+  background-color: hsl(0, 0%, 60%); /*background-color*/
+ }
+
+ .form__button:active {
+  background-color: hsl(0, 0%, 70%); /*background-color*/
+ }
