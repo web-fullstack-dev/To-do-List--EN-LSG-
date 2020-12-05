@@ -16,16 +16,16 @@
 }
 
 .form__button {
-  padding: 0; /*padding*/
+  padding: 20px; /*padding*/
   color: hsl(0, 0%, 100%); /*color*/
   background-color: hsl(0, 0%, 50%); /*background-color*/
   border: 1px solid hsl(0, 0%, 93%);
 }
 
  .form__button:hover {
-  background-color: hsl(0, 0%, 60%); /*background-color*/
+  background-color: hsl(0, 0%, 55%); /*background-color*/
  }
 
  .form__button:active {
-  background-color: hsl(0, 0%, 70%); /*background-color*/
+  background-color: hsl(0, 0%, 60%); /*background-color*/
  }
