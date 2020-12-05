@@ -6,6 +6,7 @@
 
 .section__header {
   font-size: 20px;
-  border-bottom: 1px solid hsl(195, 53%, 79%); /*border-bottom*/
+  border-bottom: 1px solid hsl(0, 0%, 93%); /*border-bottom*/
   margin: 0; /*margin*/
+  padding: 20px; /*padding*/
 }
