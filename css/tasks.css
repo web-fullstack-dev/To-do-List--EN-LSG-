@@ -10,7 +10,7 @@
   grid-gap: 20px;
   align-items: center;
   padding: 0; /*padding*/
-  border-bottom: 1px solid hsl(195, 53%, 79%); /*border-bottom*/
+  border-bottom: 1px solid hsl(0, 0%, 83%); /*border-bottom*/
 }
 
 .tasks__content--done {
@@ -18,7 +18,7 @@
 }
 
 .tasks__button {
-  border: 1px solid hsl(195, 53%, 79%); /*border*/
+  border: 1px solid hsl(0, 0%, 83%); /*border*/
   color: hsl(0, 0%, 100%); /*color*/
   width: 30px; /*width*/
   height: 30px; /*height*/
