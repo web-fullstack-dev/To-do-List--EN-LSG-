@@ -7,9 +7,10 @@
 .tasks__item {
   display: grid;
   grid-template-columns: auto 1fr auto;
-  grid-gap: 20px;
+  grid-gap: 10px;
+  /* grid-gap: 20px; */
   align-items: center;
-  padding: 0; /*padding*/
+  padding: 10px; /*padding*/
   border-bottom: 1px solid hsl(0, 0%, 83%); /*border-bottom*/
 }
 
@@ -18,11 +19,11 @@
 }
 
 .tasks__button {
-  border: 1px solid hsl(0, 0%, 83%); /*border*/
+  border: none; 
   color: hsl(0, 0%, 100%); /*color*/
-  width: 30px; /*width*/
-  height: 30px; /*height*/
-  padding: 20px; /*padding*/
+  width: 30px; 
+  height: 30px; 
+  padding: 0; 
 }
 
 .tasks__button--toggleDone {
