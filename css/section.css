@@ -10,3 +10,7 @@
   margin: 0; /*margin*/
   padding: 20px; /*padding*/
 }
+
+.section__body {
+  padding: 20px;
+}
