@@ -1,4 +1,4 @@
-# Simple To-Do_List with interaction in JavaScript
+# Simple To-Do-List with interaction in JavaScript
 
 [Link](https://mrpenguin-dev.github.io/To-Do-List--JavaScript/)
 
