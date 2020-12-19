@@ -1,17 +1,16 @@
 .tasks {
   list-style: none;
-  margin: 0; /*margin*/
-  padding: 0; /*padding*/
+  margin: 0; 
+  padding: 0; 
 }
 
 .tasks__item {
   display: grid;
   grid-template-columns: auto 1fr auto;
   grid-gap: 10px;
-  /* grid-gap: 20px; */
   align-items: center;
-  padding: 10px; /*padding*/
-  border-bottom: 1px solid hsl(0, 0%, 83%); /*border-bottom*/
+  padding: 10px; 
+  border-bottom: 1px solid hsl(0, 0%, 83%); 
 }
 
 .tasks__content--done {
@@ -20,32 +19,32 @@
 
 .tasks__button {
   border: none; 
-  color: hsl(0, 0%, 100%); /*color*/
+  color: hsl(0, 0%, 100%); 
   width: 30px; 
   height: 30px; 
   padding: 0; 
 }
 
 .tasks__button--toggleDone {
-  background-color: hsl(177, 70%, 41%); /*background-color*/
+  background-color: hsl(177, 70%, 41%); 
 }
 
 .tasks__button--toggleDone:hover {
-  background-color: hsl(177, 70%, 51%); /*background-color*/
+  background-color: hsl(177, 70%, 51%); 
 }
 
 .tasks__button--toggleDone:hover {
-  background-color: hsl(177, 70%, 61%); /*background-color*/
+  background-color: hsl(177, 70%, 61%); 
 }
 
 .tasks__button--remove {
-  background-color: hsl(340, 57%, 64%); /*background-color*/
+  background-color: hsl(340, 57%, 64%);
 }
 
 .tasks__button--remove:hover {
-  background-color: hsl(340, 57%, 74%); /*background-color*/
+  background-color: hsl(340, 57%, 74%); 
 }
 
 .tasks__button--remove:active {
-  background-color: hsl(340, 57%, 84%); /*background-color*/
+  background-color: hsl(340, 57%, 84%); 
 }

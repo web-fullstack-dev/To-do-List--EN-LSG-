@@ -1,14 +1,14 @@
 .section {
   margin: 10px 0;
-  background: hsl(0, 0%, 100%); /*background*/
-  box-shadow: 0 0 30px hsl(0, 0%, 93%); /*box-shadow*/
+  background: hsl(0, 0%, 100%); 
+  box-shadow: 0 0 30px hsl(0, 0%, 93%); 
 }
 
 .section__header {
   font-size: 20px;
-  border-bottom: 1px solid hsl(0, 0%, 93%); /*border-bottom*/
-  margin: 0; /*margin*/
-  padding: 20px; /*padding*/
+  border-bottom: 1px solid hsl(0, 0%, 93%); 
+  margin: 0;
+  padding: 20px; 
 }
 
 .section__body {
