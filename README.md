@@ -1,4 +1,7 @@
-# Simple To-Do_List with interaction in JavaScript
+# Simple To-Do-List with interaction in JavaScript
+
+[Link](https://mrpenguin-dev.github.io/To-Do-List--JavaScript/)
+
 #### Added:
 1. container with To-Do-List data
 2. input "New Task" (here you can to write a task)
