@@ -1,0 +1,21 @@
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.buttons__button {
+  background-color: transparent;
+  color: hsl(203, 92%, 55%); /* color */
+  border: none;
+  margin: 0 0 0 20px;
+  border-bottom: 1px solid transparent;
+  transition: color 0.3s;
+}
+
+.buttons__button:hover {
+  color: hsl(203, 92%, 60%); /* color */
+}
+
+.buttons__button:disabled {
+  color: hsl(0, 0%, 80%);
+}

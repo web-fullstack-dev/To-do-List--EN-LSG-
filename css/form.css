@@ -19,11 +19,13 @@
   padding: 20px; 
   color: hsl(0, 0%, 100%); 
   background-color: hsl(203, 92%, 55%); 
-  border: 1px solid hsl(0, 0%, 93%);
+  border: none;
+  transition: 0.3s;
 }
 
  .form__button:hover {
   background-color: hsl(203, 92%, 60%); 
+  transform: scale(1.1);
  }
 
  .form__button:active {

@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="css/section.css">
   <link rel="stylesheet" href="css/form.css">
   <link rel="stylesheet" href="css/tasks.css">
+  <link rel="stylesheet" href="css/buttons.css">
 </head>
 <body class="body">
   <main class="container">
@@ -28,8 +29,17 @@
         </form>
       </div>
     </section>
+    
     <section class="section">
-      <h2 class="section__header">To do list 📄</h2>
+      <!-- _______________________________ -->
+      <header class="section__header">
+        <h2 class="section__header">To do list 📄</h2>
+        <div class="buttons js-buttons">
+          <button class="buttons__button js-toggleHideDoneTasks">Hide completed tasks</button>
+          <button class="buttons__button js-markAllDone">Complete all</button>
+        </div>
+      </header>
+      <!-- _______________________________ -->
       <div class="section__body">
         <ul class="tasks js-tasks">
           <li class="tasks__item js-tasks">
@@ -38,9 +48,10 @@
           </li>
         </ul>
       </div>
+      <!-- _______________________________ -->
+    </section> 
 
     <script defer src="js/script.js"></script>
-    </section>
   </main>
 </body>
 </html>
