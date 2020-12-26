@@ -30,4 +30,5 @@
 
  .form__button:active {
   background-color: hsl(203, 92%, 65%); 
+  transform: scale(1);
  }
