@@ -12,6 +12,13 @@
   transition: color 0.3s;
 }
 
+@media (max-width: 414px) {
+  .buttons__button {
+    flex-basis: 100%;
+    margin: 10px;
+  }
+}
+
 .buttons__button:hover {
   color: hsl(203, 92%, 60%); /* color */
 }
