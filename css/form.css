@@ -20,14 +20,14 @@
   color: hsl(0, 0%, 100%); 
   background-color: hsl(203, 92%, 55%); 
   border: none;
-  transition: 0.3s;
+  transition: color 0.3s;
 }
 
  .form__button:hover {
   background-color: hsl(203, 92%, 60%); 
+  transform: scale(1.1);
 }
 
 .form__button:active {
   background-color: hsl(203, 92%, 65%); 
-  transform: scale(1.1);
  }
