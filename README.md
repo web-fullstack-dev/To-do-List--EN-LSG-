@@ -1,6 +1,6 @@
 # Simple To-Do-List with interaction in JavaScript
 
-[Link](https://mrpenguin-dev.github.io/To-Do-List--JavaScript/)
+[Link](https://mrpenguin-dev.github.io/Simple-To-Do-List/)
 
 #### Added:
 1. container with To-Do-List data
