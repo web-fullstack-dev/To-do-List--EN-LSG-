@@ -21,8 +21,9 @@
 }
 
 .section__title {
-  font-size: 20px;
+  font-size: 35px;
   margin: 0;
+  text-align: center;
 }
 
 .section__body {
