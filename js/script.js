@@ -96,13 +96,13 @@
 
     buttonsElement.innerHTML = `
         <button class="buttons__button js-toggleHideDoneTasks">
-          ${hideDoneTasks ? "Pokaż" : "Ukryj"} ukończone
+          ${hideDoneTasks ? "Show" : "Hide"} completed
         </button>
         <button 
           class="buttons__button js-markAllDone"
           ${ tasks.every(({ done }) => done) ? " disabled" : ""}
         >
-          Ukończ wszystkie
+          Complete all
         </button>
       `;
   };
