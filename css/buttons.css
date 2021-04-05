@@ -5,7 +5,7 @@
 
 .buttons__button {
   background-color: transparent;
-  color: hsl(203, 92%, 55%); /* color */
+  color: hsl(210, 14%, 53%);  
   border: none;
   margin: 0 0 0 20px;
   border-bottom: 1px solid transparent;
@@ -20,7 +20,7 @@
 }
 
 .buttons__button:hover {
-  color: hsl(203, 92%, 60%); /* color */
+  color: hsl(210, 14%, 63%); 
 }
 
 .buttons__button:disabled {
