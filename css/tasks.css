@@ -31,25 +31,25 @@
 }
 
 .tasks__button--toggleDone {
-  background-color: hsl(177, 70%, 41%); 
+  background-color: hsl(146, 50%, 36%); 
 }
 
 .tasks__button--toggleDone:hover {
-  background-color: hsl(177, 70%, 51%); 
+  background-color: hsl(146, 50%, 46%); 
 }
 
 .tasks__button--toggleDone:hover {
-  background-color: hsl(177, 70%, 61%); 
+  background-color: hsl(146, 50%, 56%); 
 }
 
 .tasks__button--remove {
-  background-color: hsl(340, 57%, 64%);
+  background-color: hsl(340, 57%, 59%);
 }
 
 .tasks__button--remove:hover {
-  background-color: hsl(340, 57%, 74%); 
+  background-color: hsl(340, 57%, 69%); 
 }
 
 .tasks__button--remove:active {
-  background-color: hsl(340, 57%, 84%); 
+  background-color: hsl(340, 57%, 79%); 
 }
