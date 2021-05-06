@@ -14,10 +14,33 @@
   margin: 5px;
   padding: 8px;
   cursor: context-menu;
+  border-style: none;
+}
+
+.section__button:hover {
+  background-color: hsl(203, 92%, 55%);
+  color: hsl(0, 0%, 100%);
+}
+
+.section__button:active {
+  background-color: hsl(203, 92%, 45%);
 }
 
 .section__button--link {
   cursor: context-menu;
+}
+
+.section__button--lightseagreen {
+  background-color: hsl(177, 70%, 41%);
+  color: rgb(255, 255, 255);
+}
+
+.section__button--lightseagreen.section__button--lightseagreen:hover {
+  background-color: hsl(177, 70%, 46%);
+}
+
+.section__button--lightseagreen.section__button--lightseagreen:active {
+  background-color: hsl(177, 70%, 36%);
 }
 
 .section__header {
