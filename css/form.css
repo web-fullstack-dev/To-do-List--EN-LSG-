@@ -15,13 +15,28 @@
   border: 1px solid hsl(0, 0%, 93%);
 }
 
+@media (max-width: 360px) {
+  .form__input {
+    width: 75vw;
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
 .form__button {
   padding: 20px; 
   color: hsl(0, 0%, 100%); 
-  /* background-color: hsl(300, 100%, 35%);  */
   background-color: hsl(210, 14%, 53%); 
   border: none;
   transition: color 0.3s;
+}
+
+@media (max-width: 360px) {
+  .form__button {
+    width: 75vw;
+    font-size: 20px;
+    text-align: center;
+  }
 }
 
  .form__button:hover {

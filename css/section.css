@@ -21,10 +21,17 @@
 }
 
 .section__title {
+  color: hsl(210, 14%, 53%);
   font-size: 35px;
   margin: 0;
 }
 
 .section__body {
   padding: 20px;
+}
+
+@media (min-width: 360px) {
+  .section__body {
+    padding: 15px;
+  }
 }
