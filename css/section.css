@@ -4,6 +4,22 @@
   box-shadow: 0 0 30px hsl(0, 0%, 93%); 
 }
 
+.section__links {
+  background-color: hsl(0, 0%, 100%);
+  padding: 20px;
+  cursor: context-menu;
+}
+
+.section__button {
+  margin: 5px;
+  padding: 8px;
+  cursor: context-menu;
+}
+
+.section__button--link {
+  cursor: context-menu;
+}
+
 .section__header {
   border-bottom: 1px solid hsl(0, 0%, 93%); 
   display: grid;
@@ -21,9 +37,11 @@
 }
 
 .section__title {
+  padding: 40px;
   color: hsl(210, 14%, 53%);
   font-size: 35px;
   margin: 0;
+  text-align: left;
 }
 
 .section__body {
