@@ -129,6 +129,12 @@
     renderButtons();
     bindButtonsEvents();
 
+  // _____________________________________
+    document.querySelector(".js-stats").innerText = `
+      Total number of tasks: ${tasks.length}\n
+      Number of completed tasks: ${tasks.filter(task => task.done).length}
+    `;
+  // _____________________________________
   };
 
   const onFormSubmit = (event) => {
